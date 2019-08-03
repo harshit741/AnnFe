@@ -17,7 +17,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
-        <a class="cus-font navbar-brand" href="index.html"><h2>AnnFe.com</h2></a>
+        <a class="cus-font navbar-brand" href="index.php"><h2>AnnFe.com</h2></a>
             <ul class="nav navbar-nav ml-auto">
               <li class="nav-item">
                 <a class="nav-link active" href="index.php">Home</a>

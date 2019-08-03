@@ -18,10 +18,10 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
-        <a class="cus-font navbar-brand" href="index.html"><h2>AnnFe.com</h2></a>
+        <a class="cus-font navbar-brand" href="index.php"><h2>AnnFe.com</h2></a>
             <ul class="nav navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index.php">Home</a>
               </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="register.php">Register</a>
@@ -56,7 +56,7 @@
                             </div>
                         <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="text" name="password" class="form-control" placeholder="Password"/>
+                            <input type="password" name="password" class="form-control" placeholder="Password"/>
                         </div>
                         <div class="form-group">
                             <input type="checkbox" required name="agree-term" id="agree-term" />

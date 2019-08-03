@@ -37,10 +37,10 @@ $count = mysqli_num_rows($resu);
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
-        <a class="cus-font navbar-brand" href="index.html"><h2>AnnFe.com</h2></a>
+        <a class="cus-font navbar-brand" href="index.php"><h2>AnnFe.com</h2></a>
             <ul class="nav navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index.php">Home</a>
               </li>
                <li class="nav-item">
                  <a class="nav-link active" href="profile.html">My Profile</a>
@@ -51,6 +51,8 @@ $count = mysqli_num_rows($resu);
                 <li class="nav-item">
                   <a class="nav-link" href="About.html">About</a>
                 </li>
+                <li class="btn btn-info"><a style="color:white;text-decoration:none;" href="logout.php">Logout</a></li>
+
               </ul>
     </nav>
     <div style="padding-bottom:26%" class="jumbotron row">
@@ -78,9 +80,8 @@ $count = mysqli_num_rows($resu);
         </div>
         <div class="col-sm-3">
           <p>Total messages received:</p>
-        <span class="form-inline">  <h1 style="color:green; font-size:3rem"><?php echo $count ?></h1>&nbsp;&nbsp;&nbsp;
-          <a href="messages.php"><button type="button" class="btn btn-success">View Messages</button></a>
-        </span>
+          <a class="btn btn-info" href="messages.php">
+      Messages &nbsp <span class="badge badge-light"><?php echo $count ?></span></a>
         </div>
         <div class="col-sm-3">
           <h3>Send Annonymously to someone</h3>
